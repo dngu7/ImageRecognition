@@ -1,4 +1,15 @@
-# Supervised Learning
+# ML Algorithm performance on image datasets using tensorflow and sklearn libraries
+
+# Techniques
+- Deep Learning: Convolutional Neural Network
+- k-Nearest Neighbours
+- SVM
+- Decision Trees
+- Boosting
+
+# Performance
+- Convolutional 2-Layer Neural Network achieved 99% accuracy on MNIST database and 41% accuracy on CIFAR-100
+- Decision Trees performed the worst with 84% accuracy on MNIST and 14% accuracy on CIFAR-100
 
 # Setup
 Ensure you have python3.6 and following packages installed.
@@ -22,8 +33,8 @@ argument 3: [algorithm] = {"tree", "nn", "ada","bag","svm", "knear"}
 argument 4: [data] = {"mnist", "cifar"}
 
 Example 1: Neural Network on the MNIST database
->>> python runner.py nn mnist
+- python runner.py nn mnist
 
 Example 2: Support Vector Machine on the CIFAR database
->>> python runner.py svm cifar
+- python runner.py svm cifar
 
