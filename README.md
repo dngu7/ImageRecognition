@@ -1,4 +1,4 @@
-# ML Algorithm performance on image datasets using tensorflow and sklearn libraries
+# ML Algorithm performance on image datasets
 
 # Techniques
 - Deep Learning: Convolutional Neural Network
@@ -27,10 +27,10 @@ CIFAR-100: https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
 # Run
 To run the algorithms, use the following arguments while in the directory
 
-argument 1: python
-argument 2: runner.py
-argument 3: [algorithm] = {"tree", "nn", "ada","bag","svm", "knear"}
-argument 4: [data] = {"mnist", "cifar"}
+- argument 1: python
+- argument 2: runner.py
+- argument 3: [algorithm] = {"tree", "nn", "ada","bag","svm", "knear"}
+- argument 4: [data] = {"mnist", "cifar"}
 
 Example 1: Neural Network on the MNIST database
 - python runner.py nn mnist
